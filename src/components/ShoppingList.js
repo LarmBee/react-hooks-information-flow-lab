@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Item from "./Item";
+import Header from "./Header";
+import itemData from "../data/items"
 
 function ShoppingList({ items }) {
   const [selectedCategory, setSelectedCategory] = useState("All");
